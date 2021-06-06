@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid mb-5">
     <div class="mt-lg-12 d-flex justify-content-center row">
       <div class="col-lg-10 d-flex justify-content-center row mt-3">
         <a href="https://waltersilva5.github.io/">
@@ -86,6 +86,9 @@
                   />
                 </div>
               </div>
+              <div class="d-flex justify-content-end mt-2">
+                <button class="card-border btn">CADASTRAR</button>
+              </div>
             </form>
             <div
               class="alert alert-danger mt-3"
@@ -141,7 +144,6 @@ $text-color: rgb(0, 20, 0);
 
 @mixin card-border {
   text-align: left;
-  min-height: 80px;
   border-radius: 4px;
   background: rgba($text-color, 0.1);
   box-shadow: 1px 1px 4px;
@@ -155,6 +157,15 @@ $text-color: rgb(0, 20, 0);
 
 .card-border {
   @include card-border;
+}
+
+.btn{
+  color:rgba(124, 255, 248, 0.658);
+  font-weight:bold;
+  background-color: rgba(0, 77, 73, 0.534);
+  height: 40px;
+  border: 2px solid rgba(0, 68, 0, 0.418);
+  box-shadow: 2px 3px 4px black;
 }
 
 .page-card {
