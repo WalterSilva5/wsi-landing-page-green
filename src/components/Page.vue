@@ -138,7 +138,7 @@ $text-color: rgb(0, 20, 0);
   margin-top: 10px;
   input {
     border: 1px solid rgba(3, 255, 242, 0.26);
-    background-color: rgba(124, 255, 248, 0.534);
+    background-color: rgba(217, 252, 225, 0.911);
   }
 }
 
@@ -160,11 +160,11 @@ $text-color: rgb(0, 20, 0);
 }
 
 .btn{
-  color:rgba(124, 255, 248, 0.658);
+  color:rgba(5, 87, 9, 0.925);
   font-weight:bold;
-  background-color: rgba(0, 77, 73, 0.534);
+  background-color: rgba(125, 243, 95, 0.397);
   height: 40px;
-  border: 2px solid rgba(0, 68, 0, 0.418);
+  border: 2px solid rgba(0, 68, 0, 0.514);
   box-shadow: 2px 3px 4px black;
 }
 

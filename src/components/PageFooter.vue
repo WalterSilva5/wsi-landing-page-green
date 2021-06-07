@@ -10,7 +10,7 @@
       "
     >
       <a href="https://waltersilva5.github.io/">
-        <h4 class="text-secondary text-center">
+        <h4 class="text-dark text-center">
           @waltersilva5
           <small style="font-size: 13px; vertical-align: text-top">®</small> -
           <span>{{ new Date().getFullYear() }}.</span>
@@ -29,7 +29,7 @@ export default {};
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgb(0, 46, 31);
+  background-color: rgb(37, 255, 182);
 }
 a{text-decoration: none;}
 </style>

@@ -16,8 +16,8 @@ body {
 
   background-image: linear-gradient(
     to bottom right,
-    rgb(108, 255, 199),
-    rgb(1, 110, 105)
+    rgba(193, 255, 231, 0.300),
+    rgba(0, 255, 34, 0.3)
   );
   background-repeat: no-repeat;
   min-height: 100vh;
